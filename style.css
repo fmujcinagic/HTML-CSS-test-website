@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+.pre-header {
+  background-color: black;
+
+  height: 60px;
+  color: #9999ff;
+  padding-top: 15px;
+}
+.pre-header .secondary-menu {
+  list-style: none;
+}
+
+.pre-header .secondary-menu li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.pre-header .secondary-menu li a {
+  color: #9999ff;
+  text-transform: uppercase;
+}
+
+.main-nav .main-menu {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.main-nav .main-menu li {
+  display: inline-block;
+  margin-left: 5px;
+}
+.main-nav .main-menu li a {
+  color: #1f1f7a;
+  text-transform: uppercase;
+}
+
+.main-cta-btn {
+  background-color: #9999ff;
+  border: 1px solid #9999ff;
+  padding: 7px;
+  color: white !important;
+  transition: 0.3s;
+}
+.main-cta-btn:hover {
+  color: #9999ff !important;
+  background-color: black;
+  text-decoration: none;
+}
+
+.main-nav img {
+  margin-top: 0px;
+}
+
+.nova-sekcija {
+  background-image: url("../slike/pozadina1.jpg");
+  padding-top: 125px;
+  padding-bottom: 115px;
+  background-size: cover;
+}
+.nova-sekcija h1 {
+  color: #1f1f7a;
+  text-transform: uppercase;
+  font-size: 59px;
+  margin-bottom: 20px;
+}
+.nova-sekcija p {
+  color: white;
+  /* color: #9999ff;*/
+
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.nova-sekcija a {
+  background-color: #9999ff;
+  border: 1px solid #9999ff;
+  padding: 7px;
+  color: white;
+  transition: 0.3s;
+  display: inline-block;
+}
+.nova-sekcija a:hover {
+  color: #9999ff;
+  background-color: black;
+  text-decoration: none;
+}
+.usluge-sekcija {
+  padding-top: 100px;
+  padding-bottom: 115px;
+}
+
+.usluge-sekcija h3 {
+  text-align: center;
+  color: #9999ff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.usluge-sekcija h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  color: #1f1f7a;
+  font-weight: bold;
+}
+.usluge-sekcija p {
+  text-align: center;
+  color: #1f1f7a;
+}
+
+.usluge-sekcija .usluge-item {
+  background-color: black;
+
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 1);
+  margin-top: 50px;
+  color: #9999ff;
+  text-align: center;
+  padding-bottom: 40px;
+  transition: 0.5s;
+}
+.usluge-sekcija .usluge-item:hover {
+  background-color: #4c007b;
+  cursor: pointer;
+  margin-top: -5px;
+}
+.usluge-sekcija .usluge-item h4 {
+}
+.usluge-sekcija .usluge-item p {
+  color: white;
+}
+.usluge-sekcija .usluge-item a {
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border: 2px solid #9999ff;
+  padding: 5x;
+}
+.kako-radi-sekcija {
+  text-align: center;
+  background-image: url("../slike/pozadina2Test.jpg");
+  color: white;
+  background-size: cover;
+  padding-top: 100px;
+}
+.kako-radi-sekcija h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 55px;
+  color: #1f1f7a;
+  font-weight: bold;
+}
+
+.kako-radi-sekcija h3 {
+  background-color: #9999ff;
+  border: 1px solid #9999ff;
+  padding: 7px;
+  color: white;
+  transition: 0.3s;
+  display: inline-block;
+  border: 2px solid #1f1f7a;
+}
+.kako-radi-sekcija h3:hover {
+  color: #9999ff;
+  background-color: black;
+  text-decoration: none;
+}
+
+.kako-radi-sekcija .modal .modal-dialog .modal-content {
+  background-color: #9999ff;
+}
+
+.kupci-sekcija {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.kupci-sekcija .testimonials {
+  background-size: cover;
+  background-position: center;
+  height: 360px;
+}
